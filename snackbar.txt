@@ -1,0 +1,5 @@
+It can be useful to briefly inform your users when certain actions take place. For example, when a user swipes away a message in a list, you might want to inform them that the message has been deleted. You might even want to give them an option to undo the action.
+In Material Design, this is the job of a SnackBar. This recipe implements a snackbar using the following steps:
+	1	Create a Scaffold.
+	2	Display a SnackBar.
+	3	Provide an optional action.
