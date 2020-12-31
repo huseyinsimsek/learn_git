@@ -3,3 +3,17 @@ In Material Design, this is the job of a SnackBar. This recipe implements a snac
 	1	Create a Scaffold.
 	2	Display a SnackBar.
 	3	Provide an optional action.
+
+1. Create a Scaffold
+
+When creating apps that follow the Material Design guidelines, give your apps a consistent visual structure. In this example, display the SnackBar at the bottom of the screen, without overlapping other important widgets, such as the FloatingActionButton.
+
+The Scaffold widget, from the material library, creates this visual structure and ensures that important widgets don’t overlap.
+
+content_copy
+Scaffold(
+  appBar: AppBar(
+    title: Text('SnackBar Demo'),
+  ),
+  body: SnackBarPage(), // Complete this code in the next step.
+);
